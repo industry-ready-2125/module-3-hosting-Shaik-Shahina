@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password.instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #3897f0;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #357ae8;
+        }
+        #lock {
+            margin-left: 110px;
+        }
+        #login {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="lock" src="../../lock3.png" width="150px" height="150px">
+        <h2 id="login">Trobble logging in?</h2>
+        <p style="font-weight: 10;">Enter your email, phone, or username and we'll send you a link to get back into your account.</p>
+        <form action="#" method="post">
+            <input type="email" id="email" name="email" placeholder="Email,Phone or Username" required>
+
+            <input type="submit" value="Reset Password">
+            <p id="login">Can't reset your password?</p>
+            <p id="login">-------------------OR---------------------</p>
+            <div id="login">
+                <a href="#">Create new account</a><br><br><br>
+                <a href="#">Back to login</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
